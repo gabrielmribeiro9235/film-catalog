@@ -1,0 +1,35 @@
+
+.menu {
+    border: 1px solid black;
+    box-shadow: 0 4px 5px gray;
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.menu-titulo {
+    font-size: 30px;
+    text-align: center;
+}
+
+.menu-lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu-lista a {
+    display: block;
+    color: black;
+    background-color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.menu-lista a:hover {
+    color: white;
+    background-color: black;
+}
