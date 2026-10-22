@@ -1,0 +1,51 @@
+
+.form-criar {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px #ddd;
+    color: black;
+    background-color: white;
+}
+
+.form-criar-titulo {
+    margin-top: 0;
+}
+
+.form-criar-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.form-criar-campo input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-criar-botoes {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.form-criar-botoes button {
+    height: 35px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.botao-criar {
+    background-color: #007bff;
+    color: white;
+}
+
+.botao-cancelar {
+    background-color: #f8d7da;
+    color: #b21f2d;
+}
