@@ -1,0 +1,24 @@
+
+.filmes-lista {
+    list-style: none;
+    padding: 0;
+}
+
+.filme-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px #ddd;
+}
+
+.filme-item:hover {
+    background-color: #cccccc33;
+}
+
+.filme-link {
+    display: block;
+    color: black;
+    text-decoration: none;
+    white-space: nowrap;
+}
