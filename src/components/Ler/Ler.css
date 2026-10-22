@@ -1,0 +1,30 @@
+
+.form-ler {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px #ddd;
+    color: black;
+    background-color: white;
+}
+
+.form-ler-titulo {
+    margin-top: 0;
+}
+
+.form-ler-detalhes p {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-bottom: 15px;
+}
+
+.botao-voltar {
+    height: 35px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f8d7da;
+    color: #b21f2d;
+    cursor: pointer;
+}
