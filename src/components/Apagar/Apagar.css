@@ -1,0 +1,135 @@
+.apagar-container {
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px #ddd;
+    background-color: white;
+    color: black;
+}
+
+.apagar-titulo {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+.apagar-busca {
+    width: 60%;
+    margin: 0 auto 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.apagar-busca label {
+    font-size: 18px;
+}
+
+.apagar-input-id {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+.apagar-busca-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.apagar-botao-procurar,
+.apagar-botao-cancelar,
+.apagar-botao-excluir,
+.apagar-botao-voltar {
+    min-height: 40px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.apagar-botao-procurar {
+    background-color: #007bff;
+}
+
+.apagar-botao-cancelar,
+.apagar-botao-voltar {
+    background-color: #f8d7da;
+    color: #ffffff;
+}
+
+.apagar-botao-excluir {
+    background-color: #b21f2d;
+}
+
+.apagar-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 25px;
+    padding: 25px;
+    background-color: #ececec33;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.apagar-detalhes-titulo {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.apagar-detalhes-lista p {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    margin-bottom: 15px;
+}
+
+.apagar-detalhes-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.apagar-erro {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8d7da;
+    color: #842029;
+    text-align: center;
+    font-size: 18px;
+}
+
+.apagar-erro p {
+    margin-top: 0;
+}
+
+.apagar-erro .apagar-botao-voltar {
+    background-color: #f5c2c7;
+}
+
+@media (max-width: 600px) {
+    .apagar-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .apagar-titulo {
+        font-size: 24px;
+    }
+
+    .apagar-busca {
+        width: 100%;
+    }
+}
