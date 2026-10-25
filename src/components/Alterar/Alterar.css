@@ -1,0 +1,121 @@
+.alterar-container {
+    width: 90%;
+    margin: 30px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px #ddd;
+    background-color: white;
+    color: black;
+}
+
+.alterar-titulo {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+
+.alterar-busca {
+    width: 60%;
+    margin: 0 auto 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.alterar-busca label,
+.alterar-campo label {
+    font-size: 18px;
+}
+
+.alterar-input-id,
+.alterar-campo input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+}
+
+.alterar-botoes-busca,
+.alterar-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.alterar-botao,
+.alterar-botao-cancelar,
+.alterar-botao-voltar {
+    min-height: 40px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.alterar-botao {
+    background-color: #007bff;
+    color: white;
+}
+
+.alterar-botao-cancelar,
+.alterar-botao-voltar {
+    background-color: #f8d7da;
+    color: #ffffff;
+}
+
+.alterar-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.alterar-campo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.alterar-botoes {
+    margin-top: 15px;
+}
+
+.alterar-erro {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8d7da;
+    color: #842029;
+    text-align: center;
+    font-size: 18px;
+}
+
+.alterar-erro p {
+    margin-top: 0;
+}
+
+.alterar-erro .alterar-botao-voltar {
+    background-color: #f5c2c7;
+}
+
+@media (max-width: 600px) {
+    .alterar-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .alterar-titulo {
+        font-size: 24px;
+    }
+
+    .alterar-busca {
+        width: 100%;
+    }
+}

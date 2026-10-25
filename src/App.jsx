@@ -3,6 +3,7 @@ import Menu from "./components/Menu";
 import Inicio from "./components/Inicio";
 import Criar from "./components/Criar";
 import Ler from "./components/Ler";
+import Alterar from "./components/Alterar";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/create" element={<Criar />} />
-        <Route path="/update" element={<h1>Atualizar</h1>} />
+        <Route path="/update" element={<Alterar />} />
         <Route path="/read/:id" element={<Ler />} />
         <Route path="/delete" element={<h1>Excluir</h1>} />
         <Route path="*" element={<h1>Página não encontrada</h1>} />
