@@ -16,10 +16,10 @@ function Ler() {
     }, []);
 
     return (
-        <div className="form-ler">
-            <h3 className="form-ler-titulo">Detalhes do Filme</h3>
+        <div className="ler">
+            <h3 className="ler-titulo">Detalhes do Filme</h3>
 
-            <div className="form-ler-detalhes">
+            <div className="ler-detalhes">
                 <p><strong>Nome:</strong><span>{filme?.nome}</span></p>
                 <p><strong>Gênero:</strong><span>{filme?.genero}</span></p>
                 <p><strong>Ano:</strong><span>{filme?.ano}</span></p>

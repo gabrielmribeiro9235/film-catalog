@@ -1,5 +1,5 @@
 
-.form-ler {
+.ler {
     width: 90%;
     margin: 20px auto;
     padding: 15px;
@@ -9,11 +9,11 @@
     background-color: white;
 }
 
-.form-ler-titulo {
+.ler-titulo {
     margin-top: 0;
 }
 
-.form-ler-detalhes p {
+.ler-detalhes p {
     display: grid;
     grid-template-columns: 100px 1fr;
     margin-bottom: 15px;
