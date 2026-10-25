@@ -5,6 +5,7 @@ import Criar from "./components/Criar";
 import Ler from "./components/Ler";
 import Alterar from "./components/Alterar";
 import Apagar from "./components/Apagar";
+import "./App.css";
 
 function App() {
   return (
