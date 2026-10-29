@@ -19,8 +19,8 @@ function Inicio() {
             {filmes.map(filme => (
                 <Link key={filme.id} to={"/read/" + filme.id} className="filme-link">
                     <li className="filme-item">
-                        <strong>Id:</strong> {filme.id}
-                        <strong style={{ marginLeft: "200px" }}>Nome:</strong> {filme.nome}
+                        <span className="filme-id"><strong>Id:</strong> {filme.id}</span>
+                        <span className="filme-nome"><strong>Nome:</strong> {filme.nome}</span>
                     </li>
                 </Link>
             ))}

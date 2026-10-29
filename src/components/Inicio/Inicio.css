@@ -1,15 +1,32 @@
-
 .filmes-lista {
     list-style: none;
     padding: 0;
+    margin: 16px 0;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .filme-item {
+    display: grid;
+    grid-template-columns: 100px minmax(0, 1fr);
+    align-items: center;
+    gap: 50px;
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 10px;
     padding: 10px;
     box-shadow: 0 2px 4px #ddd;
+    box-sizing: border-box;
+    min-width: 0;
+}
+
+.filme-id {
+    white-space: nowrap;
+}
+
+.filme-nome {
+    min-width: 0;
+    overflow-wrap: anywhere;
 }
 
 .filme-item:hover {
@@ -18,7 +35,9 @@
 
 .filme-link {
     display: block;
+    width: 100%;
+    max-width: 100%;
     color: black;
     text-decoration: none;
-    white-space: nowrap;
+    box-sizing: border-box;
 }
